@@ -15,6 +15,6 @@ public class GreetingController {
     }
 
     public String sayHello() {
-        return helloWorldService.getGreeting();
+        return this.helloWorldService.getGreeting();
     }
 }
