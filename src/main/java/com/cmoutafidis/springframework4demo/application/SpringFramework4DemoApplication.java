@@ -1,11 +1,13 @@
-package com.cmoutafidis.springframework4demo;
+package com.cmoutafidis.springframework4demo.application;
 
 import com.cmoutafidis.springframework4demo.controllers.GreetingController;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
+@ComponentScan("com.cmoutafidis.springframework4demo")
 public class SpringFramework4DemoApplication {
 
     public static void main(String[] args) {
